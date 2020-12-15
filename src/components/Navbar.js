@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Navbar = ({ brand }) => {
   const [position, setposition] = useState(false)
   window.addEventListener('scroll', () => {
-    if (window.scrollY >= 60) {
+    if (window.scrollY >= 40) {
       setposition(true)
     } else {
       setposition(false)

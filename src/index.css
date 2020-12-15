@@ -94,4 +94,10 @@ p {
     /* font-size: 1.8rem; */
     text-align: center !important;
   }
+  .button__div {
+    text-align: center;
+  }
+  .header_text {
+    text-align: center;
+  }
 }

@@ -9,7 +9,7 @@ const HeaderCont = () => {
           <br />
           Develop anything.
         </h1>
-        <p className='text-gray'>
+        <p className='text-gray header_text'>
           Build a beautiful, modern website with flexible design components
           built from scratch.
         </p>

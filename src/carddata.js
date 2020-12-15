@@ -22,24 +22,24 @@ const cardData = [
   },
   {
     id: 4,
-    icon: 'fas fa-toggle-off text-green',
+    icon: 'fas fa-mobile text-green',
     title: 'Modern design',
     description:
-      '  Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.',
+      'Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.',
   },
   {
     id: 5,
-    icon: 'fas fa-layer-group text-green',
+    icon: 'far fa-laugh-beam text-green',
     title: 'Free themes',
     description:
-      'Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+      'Beyond is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   },
   {
     id: 6,
-    icon: 'fas fa-code text-green',
+    icon: 'fas fa-users text-green',
     title: 'Easy to use',
     description:
-      "We've written extensive documentation for components and tools, so you never have to reverse engineer anything.",
+      'Beyond is a easy to use ui framework which helps you to build awesome websites with very fast speed.',
   },
 ]
 export default cardData
