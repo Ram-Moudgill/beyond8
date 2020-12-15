@@ -11,7 +11,7 @@ const cardData = [
     icon: 'fas fa-layer-group text-green',
     title: 'Documentation for everything',
     description:
-      '  Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
+      '  Beyond is built to make your life easier. Variables, build tooling, documentation, and reusable components.',
   },
   {
     id: 3,
