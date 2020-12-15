@@ -1,0 +1,22 @@
+#tier1 {
+  animation: animate 4s linear infinite;
+  transform-origin: center;
+  overflow: hidden;
+  transform-box: fill-box;
+}
+#tier2 {
+  animation: animate 4s linear infinite;
+  transform-origin: center;
+  overflow: hidden;
+  transform-box: fill-box;
+  /* animation-fill-mode: forwards; */
+  /* animation-play-state: paused; */
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
