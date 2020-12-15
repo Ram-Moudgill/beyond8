@@ -50,7 +50,7 @@ const Navbar = ({ brand }) => {
                     </Link>
                   </li>
                   <li className='nav-item dropdown'>
-                    <button
+                    <li
                       className='nav-link dropdown-toggle drop_btn'
                       id='navbarDropdown'
                       role='button'
@@ -58,7 +58,7 @@ const Navbar = ({ brand }) => {
                       aria-expanded='false'
                     >
                       Docs
-                    </button>
+                    </li>
                     <ul
                       className='dropdown-menu'
                       aria-labelledby='navbarDropdown'
