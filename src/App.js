@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Footer from './components/Footer'
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,7 +12,6 @@ const App = () => {
             <Route exact path='/' component={Main} />
           </Switch>
         </main>
-        <Footer></Footer>
       </div>
     </BrowserRouter>
   )
